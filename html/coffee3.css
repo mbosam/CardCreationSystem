@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title> CENTRAL COFFEE SHOP </title>
+<style type="text/css">
+
+ body
+      
+ {
+     padding-left:9em;
+     font-family:geneva
+     color:purple;
+     background-color:lightblue;
+     }
+     
+    ul.navbar {
+        list-style-type: none;
+        padding:0;
+        margin:0;
+        overflow;hidden;
+        position:absolute;
+        top: 2em;
+        left:1em;
+        background: #333;
+        width:8em;}
+
+   li{float:right;}
+
+<!-- changes navigation button-->
+        ul.navbar li{
+        background: green;
+        margin: 0.3em 0;
+        padding: 0.2em;
+        border-right:em solid black
+         }
+   li a{
+        display:block;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+        width:80px;
+        background-color:#dddddd;
+       }
+
+<!--active button turn green-->
+    li a.ctive{
+        background-color:green;
+        color:white;}
+
+    li a:hover:not(.active){ 
+
+       background-color:green;
+       color:white;}
+
+   ul.navbar a  {text-decoration:none}
+  
+    a:link
+        {color:blue}
+           
+    
+    a:visited
+        {color:red}
+ 
+   address{
+    margin-top: 35em;
+    padding-top:15em;
+    border-bottom: thin dotted}
+<!--body color change to blue--> 
+   body
+     {color:blue;}
+
+      h1
+     {color:green;}
+
+
+    ol{
+       background:#ff9999;
+       padding:60px
+       }
+
+      ol li{
+       background:ffe5e5;
+       padding:8px;
+       margin-left:10px;
+     }
+
+      img{ display:block;
+       margin-left:auto;
+       margin-right:auto;
+
+    }
+      select {
+       width:80%;
+       padding:1px 2px;
+       border:none;
+       background-color:#3CBC8D;
+       border-radius:1px;
+       }
+        textarea  {
+           width;200%;
+           height:100%;
+           background-color:GREY;
+           font-size: 16px;}
+<!-- heading shadow-->
+     h1{
+        text-shadow:3px 2px red;}
+
+   </style>
+
+   </head>
+
+    
+<!--site navigation menu -->
+
+<ul class ="navbar">
+   <li><a href="index.html"target="_blank">HOME</a></li>
+   <li><a href="About.html"target="_blank">ABOUT</a></li>
+    <li><a href="MENU.html"target="_blank">MENU</a></li>
+   <li><a href="location.html"target="_blank">LOCATION</a></li>
+</ul>
+
+<body>
+<!--main content -->
+
+<h1><b><center> CENTRAL COFFEE SHOP </center></b></h1>
+<!--<a href= "ass.doc"target="blank">ABOUT</a>-->
+<!--<form>
+   <textarea> This is the great area and coolest place to relax and enjoy...
+   </textarea>
+<select id="MENU" name="MENU">
+  <option value="co">coffee</option>
+   <option value="co">Tea</option>
+   <option value="co">Lemon</option>
+   <option value="co">Milo</option>
+</select>
+
+</form>
+
+
+<p> welcome to CENTRAL COFFEE AND COOLEST
+<P> This is the best coffe shop to have your coffee and snacks
+     -->
+<!--sign and date -->
+<address> samuel <br> 23/january/2019 
+</address>
+</body>
+</html>

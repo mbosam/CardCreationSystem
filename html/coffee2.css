@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title> CENTRAL COFFE </title>
+<style type="text/css">
+
+    
+    { 
+     border:1px solid black;
+     padding-left:11em;
+     font-family:geneva
+     color:purple;
+     background-color:lightblue;
+     }
+     
+   
+    ul.navbar {
+        list-style-type: none;
+        padding:0;
+        margin:0;
+        position:absolute;
+        top: 4em;
+        left:1em;
+        width:7em;}
+
+ ul.navbar li
+   {
+    background: red;
+    margin: 0.3em 0;
+    padding: 0.2em;
+    border-right:em solid black
+   }
+
+    ul.navbar a {
+       text-decoration:none}
+
+   li a.active{
+     color:green;
+    }
+  
+    a:link{
+        color:blue}
+           
+    
+    a:visited{
+     color:red}
+ 
+   address{
+    margin-top: 1em;
+    padding-top:1em;
+    border-top: thin dotted} 
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<!--site navigation menu -->
+
+<ul class ="navbar">
+  
+   <li><a href="#HOME">HOME</a>
+   <li><a href="index.html">ABOUT</a>
+    <li><a href="index.html">MENU</a>
+   <li><a href="index.html">LOCATION</a>
+</ul>
+
+<!--main content -->
+<h1><b><center> CENTRAL COFFE </center></b></h1>
+
+ 
+<p> <dv>welcome to CENTRAL COFFEE AND COOLEST</dv>
+<P> This is the best coffe shop to have your coffee and snacks
+
+
+<!--sign and date -->
+<address> samuel <br> 23/january/2019 
+</address>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title> CENTRAL COFFEE SHOP </title>
+<style type="text/css">
+
+ body
+   {
+     padding-left:9em;
+     font-family:geneva
+     color:purple;
+     background-color:lightblue;
+     }
+     h1.one{
+             border-style: solid;
+             border-color:red green blue;
+             background-color:silver;
+            }
+
+    <!-- .marquee
+         {
+         height:50px;
+         overflow:hidden;
+         position:relative;
+         background:lightgreen;
+         color:PURPLE;
+         border:1px solid orange;
+         }
+      .marquee p {
+          position: absolute;   
+          width:100p%;
+          height:100%;
+          margin:0;
+          line-height:70px;
+          text-align: center;
+        }
+      @keyframe marquee{
+                   0% { transform:translate(0,0);}
+                  100% {transform:translate(-100%,0);}
+   }-->
+/*move it(define the animation)*/
+         @-moz-keyframes scroll-left
+    {
+      0%  {-moz- transform:translateX(100%);}
+    
+      100%{-moz- transform:translateX(-100%);}  
+           }
+       @-webkit-keyframes scroll-left
+          {
+       0%{  -webkit-transform:translateX(100%);}
+       100%{-webkit-transform:translateX(-100%); }
+     } 
+       @keyframes scroll-left{%{-moz- transform:translateX(100%);
+       -webkit-transform:
+        transform:translateX(-100%);
+     }
+      }
+ 
+    
+    ul.navbar {
+        list-style-type: none;
+        padding:0;
+        margin:0;
+        overflow;hidden;
+        position:absolute;
+        top: 1em;
+        left:1em;
+        background: #333;
+        width:8em;}
+
+       li
+         {float:left;}
+   
+
+   <!-- changes navigation button-->
+        ul.navbar li{
+        background: green;
+        margin: 0.5em 1;
+        padding: 0.2em;
+        border-right:em solid purple;
+         }
+   li a{
+        display:block;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+        width:70px;
+        background-color:#dddddd;
+       }
+
+<!--active button turn green-->
+    li a.ctive{
+        background-color:blue;
+        color:white;}
+
+    li a:hover:not(.active){ 
+
+       background-color:green;
+       color:white;}
+
+   ul.navbar a  {text-decoration:none}
+  
+    a:link
+        {color:GREEN}
+           
+    
+    a:visited
+        {color:blue}
+ 
+   address{
+    margin-top: 20em;
+    padding-top:10em;
+     float:RIGHT;
+    border-bottom: thin dotted}
+<!--body color change to blue--> 
+   body
+     {color:blue;}
+
+      h1
+     {color:green;}
+
+      
+<!-- heading shadow-->
+     h1{
+        text-shadow:3px 2px red;}
+
+
+   </style>
+<!--<div class="marquee">
+<p>CENTRAL COFFEE SHOP</P>
+</DIV>-->
+   </head>
+
+    
+<!--site navigation menu link -->
+
+<ul class ="navbar">
+   <li><a href="HOME.html"target="_blank">HOME</a></li>
+   <li><a href="About.html"target="_blank">ABOUT</a></li>
+    <li><a href="MENU.html"target="_blank">MENU</a></li>
+   <li><a href="location.html"target="_blank">LOCATION</a></li>
+</ul>
+
+
+<!--main content -->
+
+<h1 class="one"><b><center> CENTRAL COFFEE SHOP </center></b></h1>
+<!--<a href= "ass.doc"target="blank">ABOUT</a>-->
+<!--<form>
+   <textarea> This is the great area and coolest place to relax and enjoy...
+   </textarea>
+<select id="MENU" name="MENU">
+  <option value="co">coffee</option>
+   <option value="co">Tea</option>
+   <option value="co">Lemon</option>
+   <option value="co">Milo</option>
+</select>
+
+</form>
+-->
+
+<p> WELCOME TO CENTRAL COFFEE SHOP.
+<P> This is the best coffe shop to have coffee and lunch and dinner.
+     
+<!--sign and date -->
+<address> Samuel.M <br> 23/january/2019 
+</address>
+</body>
+</html>
